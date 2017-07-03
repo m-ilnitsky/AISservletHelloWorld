@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="helloWorld">
+    <output-path>$PROJECT_DIR$/out/artifacts/helloWorld</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AISservletHelloWorld" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/webapp/index.html" />
+    </root>
+  </artifact>
+</component>
